@@ -42,6 +42,7 @@ class Second extends StatelessWidget{
 
           if(jogada == jogadaOponente) ...[
             Image.asset('images/empate.png', width: 100),
+            Text("Empate", style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20, color: Colors.black))
           ]
           else if (jogada == 1 && jogadaOponente == 2 || jogada == 2 && jogadaOponente == 3 || jogada == 3 && jogadaOponente == 1) ...[
             Image.asset('images/derrota.png', width: 100),
